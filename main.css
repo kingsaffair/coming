@@ -1,0 +1,105 @@
+html, body {
+	height: 100%;
+}
+header {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+header > .container {
+	width: 750px;
+	height: 100%;
+	position: relative;
+}
+
+.wrapper {
+	width: 100%;
+	height: 40%;
+	position: relative;
+	top: 30%;
+	margin-top: -1px;
+}
+
+.wrapper > .row {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.wrapper > .row > div {
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+#title {
+	min-height: 60%;
+	text-align: center;
+}
+
+#title span {
+	font-size: 14vh;
+	font-family: serif;
+	text-align: center;
+}	
+#date {
+	width: 100%;
+	min-height: 20%;
+	text-align: center;
+}
+#date span {
+	margin: auto;
+	position: relative;
+	font-size: 4vh;
+	font-family: serif;
+    letter-spacing: 1px;
+}
+#line {
+	position: relative;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+#line > div > div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 1px;
+	background-color: #000000;
+}
+#workers {
+	margin-top: 2%;
+	margin-bottom: 3%;
+	min-height: 10%;
+	font-size: 20px;
+	text-align: center;
+}
+#worker > a {
+	margin: auto;
+}
+#worker > a > * {
+	margin: auto;
+}
+#committee {
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: serif;
+	padding-top: 10%;
+	padding-bottom: 10%;	
+}
+#committee .row {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+#committee .members {
+	margin-top: 60px;
+	margin-left: 100px;
+}
+footer {
+	text-align: center;
+	background-color: #000000;
+	color: #ffffff;
+	padding-bottom: 5%;	
+}
