@@ -1,5 +1,7 @@
 html, body {
 	height: 100%;
+	font-family: "Libre Caslon Text";
+    /* letter-spacing: 1px; */
 }
 header {
 	width: 100%;
@@ -41,7 +43,6 @@ header > .container {
 
 #title span {
 	font-size: 14vh;
-	font-family: serif;
 	text-align: center;
 }	
 #date {
@@ -53,7 +54,6 @@ header > .container {
 	margin: auto;
 	position: relative;
 	font-size: 4vh;
-	font-family: serif;
     letter-spacing: 1px;
 }
 #line {
@@ -85,7 +85,6 @@ header > .container {
 	width: 100%;
 	background-color: #000000;
 	color: #ffffff;
-	font-family: serif;
 	padding-top: 10%;
 	padding-bottom: 10%;	
 }
