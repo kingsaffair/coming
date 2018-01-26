@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	font-family: "Libre Caslon Text", "Source Serif Pro", serif;
+	font-family: "Libre Caslon Display", "Source Serif Pro", serif;
     /* letter-spacing: 1px; */
 }
 header {
@@ -42,7 +42,7 @@ header > .container {
 }
 
 #title span {
-	font-size: 14vh;
+	font-size: 10vh;
 	text-align: center;
 }	
 #date {
