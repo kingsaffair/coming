@@ -13,7 +13,7 @@
 html, body {
 	height: 100%;
 	font-family: 'neoteric';
-    /* letter-spacing: 1px; */
+    letter-spacing: 1px;
 }
 header {
 	width: 100%;
